@@ -72,7 +72,7 @@ section {
 }
 
 .about-content h1, .about-content h2 {
-    color: #ff6347;
+    color: #47b5ff;
 }
 
 .skills-list {
@@ -166,14 +166,19 @@ footer {
     bottom: 0;
 }
 
-.show-interests {
-    /* Add your desired styles for the 'Show Interests' state */
-    background-color: #4CAF50; /* Example: Green background color */
-    color: white; /* Example: White text color */
-}
-
-.hide-interests {
-    /* Add your desired styles for the 'Hide Interests' state */
-    background-color: #f44336; /* Example: Red background color */
-    color: white; /* Example: White text color */
-}
+a.contactbutton {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #395ccf; /* Blue */
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a.contactbutton:hover {
+    background-color: #3a59be; /* Darker Blue */
+  }
