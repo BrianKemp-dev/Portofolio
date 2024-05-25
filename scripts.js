@@ -11,13 +11,19 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Please fill out all fields.');
     }
 });
+document.getElementById('toggle-interests').addEventListener('click', <<<<<<< Current
+
 document.getElementById('toggle-interests').addEventListener('click', function() {
     var interests = document.getElementById('interests');
     if (interests.style.display === 'none') {
         interests.style.display = 'block';
         this.textContent = 'Hide Interests';
+        this.classList.remove('show-interests');
+        this.classList.add('hide-interests');
     } else {
         interests.style.display = 'none';
         this.textContent = 'Show Interests';
+        this.classList.remove('hide-interests');
+        this.classList.add('show-interests');
     }
 });
