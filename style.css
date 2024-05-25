@@ -36,6 +36,57 @@ section {
     color: #fff;
 }
 
+#about {
+    background-color: #333;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#portfolio {
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#contact {
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#gallery {
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+    flex: 1 1 200px;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.about-content {
+    flex: 2 1 400px;
+}
+
+.about-content h1, .about-content h2 {
+    color: #ff6347;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #555;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -103,4 +154,14 @@ button:hover {
     height: 300px;
     background-size: cover;
     object-fit:scale-down;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

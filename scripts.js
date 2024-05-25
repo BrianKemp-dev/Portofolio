@@ -11,3 +11,13 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('Please fill out all fields.');
     }
 });
+document.getElementById('toggle-interests').addEventListener('click', function() {
+    var interests = document.getElementById('interests');
+    if (interests.style.display === 'none') {
+        interests.style.display = 'block';
+        this.textContent = 'Hide Interests';
+    } else {
+        interests.style.display = 'none';
+        this.textContent = 'Show Interests';
+    }
+});

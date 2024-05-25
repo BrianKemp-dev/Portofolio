@@ -10,9 +10,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,21 +24,20 @@
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="gallery">
-            <div class="project">
+            <div class="project" id="gallery">
                 <a class="projectimages" href="https://github.com/BrianKemp-dev/ChatGPT-Virtual-Assistant" target="_blank">
                     <img src="Images/ChatGPT-Virtual-Assistant.png" alt="Project 1">
                     <h3>ChatGPT-Virtual-Assistant</h3>
                 </a>
                 <p>Description of ChatGPT Virtual Assistant</p>
             </div>
-            <div class="project">
+            <div class="project" id="gallery">
                 <a class="projectimages" href="https://github.com/BrianKemp-dev/Wand-Plugin" target="_blank">
                     <img src="Images/WandPlugin.png" alt="WandPlugin">
                     <h3>WandPlugin</h3>
                 </a>
                 <p>Description of WandPlugin</p>
             </div>
-            <!-- Add more projects as needed -->
         </div>
     </section>
     <section id="contact">
@@ -52,6 +52,10 @@
             <button type="submit">Send</button>
         </form>
     </section>
+    </section>
+        <footer>
+          <p>&copy; 2024 Brian. All rights reserved.</p>
+        </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
