@@ -5,17 +5,16 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    if(name && email && message) {
+    if (name && email && message) {
         alert('Thank you for your message, ' + name + '!');
     } else {
         alert('Please fill out all fields.');
     }
 });
-document.getElementById('toggle-interests').addEventListener('click', <<<<<<< Current
 
 document.getElementById('toggle-interests').addEventListener('click', function() {
     var interests = document.getElementById('interests');
-    if (interests.style.display === 'none') {
+    if (interests.style.display === 'none' || interests.style.display === '') {
         interests.style.display = 'block';
         this.textContent = 'Hide Interests';
         this.classList.remove('show-interests');
