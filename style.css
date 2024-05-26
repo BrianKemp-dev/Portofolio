@@ -1,3 +1,4 @@
+/* All the main css*/
 body {
     background-color: #222;
     font-family: Arial, sans-serif;
@@ -11,7 +12,8 @@ header {
     color: #fff;
     padding: 1em 0;
 }
-
+/* All the css for the index page */
+/* All the css for the about page */
 nav ul {
     list-style: none;
     margin: 0;
@@ -159,12 +161,12 @@ button:hover {
 
 footer {
     text-align: center;
-    padding: 1em 0;
-    background-color: #333;
+    background-color: #222;
     color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 a.contactbutton {
