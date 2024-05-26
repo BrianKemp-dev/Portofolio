@@ -63,8 +63,9 @@ section {
 
 .profile-pic {
     flex: 1 1 200px;
-    border-radius: 50%;
+    border-radius: 5%;
     max-width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .about-content {
