@@ -185,3 +185,9 @@ a.contactbutton {
   a.contactbutton:hover {
     background-color: #3a59be; /* Darker Blue */
   }
+
+.headerlogo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
