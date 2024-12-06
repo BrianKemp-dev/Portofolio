@@ -73,10 +73,12 @@
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .quiz-container .naardequiz:hover {
     background-color: #3a59be;
+    text-decoration: none;
 }
 
 .highlight {
