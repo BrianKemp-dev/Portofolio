@@ -23,116 +23,98 @@
     </header>
     <section id="quiz">
         <div class="quiz-container">
-            <h1>Test je kennis over architectuur en security!</h1>
             <form id="quiz-form">
-                <!-- Vraag 1 -->
-                <div class="question">
-                    <p><strong>1. Wat betekent two factor authentication?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q1" value="A"> A)  Een methode waarbij je je wachtwoord moet invoeren op twee verschillende apparaten voordat je kunt inloggen.</li>
-                        <li><input type="radio" name="q1" value="B"> B) Een beveiligingsmethode waarbij je twee verschillende verificatiestappen moet doorlopen om toegang te krijgen tot je account.</li>
-                        <li><input type="radio" name="q1" value="C"> C) Een systeem waarbij je elke keer een nieuw wachtwoord krijgt voor elke loginpoging.</li>
-                    </ul>
-                </div>
-    
-                <!-- Vraag 2 -->
-                <div class="question">
-                    <p><strong>2. Wat is een SSL-certificaat?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q2" value="A"> A) Een document dat bevestigt dat een website veilig is voor gebruik, maar geen versleuteling biedt.</li>
-                        <li><input type="radio" name="q2" value="B"> B) Een beveiligingstechnologie die zorgt voor een versleutelde verbinding tussen een webbrowser en een webserver, zodat gegevens veilig kunnen worden uitgewisseld.</li>
-                        <li><input type="radio" name="q2" value="C"> C) Een certificaat dat nodig is om een website te registreren bij een domeinnaamprovider.</li>
-                    </ul>
-                </div>
-    
-                <!-- Vraag 3 -->
-                <div class="question">
-                    <p><strong>3. Wat zijn ethische hackers?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q3" value="A"> A) Hackers die zonder toestemming systemen aanvallen om persoonlijk voordeel te behalen.</li>
-                        <li><input type="radio" name="q3" value="B"> B) Hackers die software maken om de beveiliging van internetverbindingen te verbeteren.</li>
-                        <li><input type="radio" name="q3" value="C"> C) Beveiligingsexperts die kwetsbaarheden in systemen zoeken en oplossen met toestemming van de eigenaar om de veiligheid te verbeteren.</li>
-                    </ul>
-                </div>
-                
-                <!-- Vraag 4 -->
-                <div class="question">
-                    <p><strong>4. Wat is het verschil tussen symmetrische en asymmetrische encryptie?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q4" value="A"> A) Symmetrische encryptie maakt gebruik van twee sleutels, terwijl asymmetrische encryptie één sleutel gebruikt voor zowel encryptie als decryptie.</li>
-                        <li><input type="radio" name="q4" value="B"> B) Symmetrische encryptie gebruikt één sleutel voor zowel encryptie als decryptie, terwijl asymmetrische encryptie twee verschillende sleutels gebruikt: een openbare sleutel en een privésleutel.</li>
-                        <li><input type="radio" name="q4" value="C"> C) Symmetrische encryptie is langzamer dan asymmetrische encryptie, omdat het meer rekencapaciteit vereist.</li>
-                    </ul>
-                </div>
-
-                <!-- Vraag 5 -->
-                <div class="question">
-                    <p><strong>5. Wat is een DDoS-aanval?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q5" value="A"> A) Een aanval waarbij meerdere computers tegelijk proberen de toegang tot een website of netwerk te blokkeren door het systeem te overspoelen met verkeer.</li>
-                        <li><input type="radio" name="q5" value="B"> B) Een techniek waarbij hackers de identiteit van een legitieme gebruiker overnemen om toegang te krijgen tot vertrouwelijke gegevens.</li>
-                        <li><input type="radio" name="q5" value="C"> C) Een type aanval waarbij de hacker probeert in te breken in een systeem door gebruik te maken van kwetsbaarheden in de software.</li>
-                    </ul>
-                </div>
-
-                <!-- Vraag 6 -->
-                <div class="question">
-                    <p><strong>6. Uit welke lagen bestaat het drielagenmodel?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q6" value="A"> A) Fysieke laag, Logische laag, Toepassingenlaag.</li>
-                        <li><input type="radio" name="q6" value="B"> B) Netwerklaag, Applicatielaag, Dataopslaglaag.</li>
-                        <li><input type="radio" name="q6" value="C"> C) Hardwarelaag, Softwarelaag, Netwerklaag.</li>
-                    </ul>
-                </div>
-
-                <!-- Vraag 7 -->
-                <div class="question">
-                    <p><strong>7. Wat is het verschil tussen een emulator en een virtual machine?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q7" value="A"> A) Een emulator is een software die meerdere besturingssystemen tegelijk kan draaien, terwijl een virtual machine slechts één besturingssysteem kan draaien.</li>
-                        <li><input type="radio" name="q7" value="B"> B) Een emulator draait op hardware en simuleert een volledig ander besturingssysteem, terwijl een virtual machine een volledig besturingssysteem draait binnen een bestaand besturingssysteem.</li>
-                        <li><input type="radio" name="q7" value="C"> C) Een emulator draait alleen op een virtuele omgeving, terwijl een virtual machine altijd fysieke hardware nodig heeft om te draaien.</li>
-                    </ul>
-                </div>
-
-                <!-- Vraag 8 -->
-                <div class="question">
-                    <p><strong>8. Wat is het verschil tussen een IPv4 en een IPv6 adres?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q8" value="A"> A) IPv4 maakt gebruik van hexadecimale getallen, terwijl IPv6 decimale getallen gebruikt voor adressen.</li>
-                        <li><input type="radio" name="q8" value="B"> B) IPv4 ondersteunt alleen privé netwerken, terwijl IPv6 alleen voor openbare netwerken wordt gebruikt.</li>
-                        <li><input type="radio" name="q8" value="C"> C) IPv4-adressen zijn 64-bits en IPv6-adressen zijn 128-bits, wat zorgt voor meer unieke adressen in IPv6.</li>
-                    </ul>
-                </div>
-
-                <!-- Vraag 9 -->
-                <div class="question">
-                    <p><strong>9. Wat is DNS en waarvoor wordt dit gebruikt?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q9" value="A"> A) DNS (Domain Name System) is een systeem dat domeinnamen vertaalt naar IP-adressen, zodat computers websites kunnen vinden.</li>
-                        <li><input type="radio" name="q9" value="B"> B) DNS is een protocol voor het verzenden van e-mailberichten tussen computers op internet.</li>
-                        <li><input type="radio" name="q9" value="C"> C) DNS is een beveiligingsprotocol dat wordt gebruikt om gegevens te coderen tijdens het verzenden over internet.</li>
-                    </ul>
-                </div>
-                
-                <!-- Vraag 10 -->
-                <div class="question">
-                    <p><strong>10. Wat betekent de Von Neumann-architectuur?</strong></p>
-                    <ul class="options">
-                        <li><input type="radio" name="q10" value="A"> A) Een type netwerkarchitectuur voor het verbinden van computers in een lokaal netwerk.</li>
-                        <li><input type="radio" name="q10" value="B"> B) Een type architectuur waarbij de gegevens en instructies in verschillende geheugens worden opgeslagen en uitgevoerd.</li>
-                        <li><input type="radio" name="q10" value="C"> C) Een type computerarchitectuur waarbij gegevens en instructies in hetzelfde geheugen worden opgeslagen en uitgevoerd.</li>
-                    </ul>
-                </div>
+                <h1>Wat is digitale architectuur en security?</h1>
+                <section>
+                    <h2 class="section-title">1. Wat betekent Two-Factor Authentication (2FA)?</h2>
+                    <p>
+                        Two-Factor Authentication, ook wel 2FA genoemd, is een extra beveiligingslaag om je online accounts te beschermen. 
+                        In plaats van alleen een wachtwoord, gebruik je een tweede manier om je identiteit te bewijzen, zoals een code via een app 
+                        of een vingerafdrukscan. Dit zorgt ervoor dat zelfs als iemand je wachtwoord heeft, je account nog steeds beschermd is.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">2. Wat is een SSL-certificaat?</h2>
+                    <p>
+                        Een SSL-certificaat (Secure Sockets Layer) zorgt ervoor dat de verbinding tussen jouw browser en een website veilig is. 
+                        Dit betekent dat gevoelige informatie, zoals wachtwoorden en creditcardgegevens, versleuteld wordt verzonden. Je kunt een 
+                        website met een SSL-certificaat herkennen aan het slotje in de adresbalk en het gebruik van "https" in plaats van "http".
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">3. Wat zijn ethische hackers?</h2>
+                    <p>
+                        Ethische hackers, ook wel "white hat hackers" genoemd, zijn beveiligingsexperts die proberen kwetsbaarheden in 
+                        systemen te vinden voordat kwaadwillende hackers (black hats) dit doen. Zij gebruiken hun vaardigheden om bedrijven te 
+                        helpen hun beveiliging te verbeteren en cyberaanvallen te voorkomen.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">4. Wat is het verschil tussen symmetrische en asymmetrische encryptie?</h2>
+                    <p>
+                        Encryptie is een methode om gegevens te versleutelen zodat ze onleesbaar zijn voor anderen. Bij 
+                        <span class="highlight">symmetrische encryptie</span> wordt dezelfde sleutel gebruikt om te versleutelen en te ontsleutelen. 
+                        Bij <span class="highlight">asymmetrische encryptie</span> worden twee verschillende sleutels gebruikt: een publieke sleutel om te versleutelen 
+                        en een privé-sleutel om te ontsleutelen. Asymmetrische encryptie is vaak veiliger maar ook trager dan symmetrische encryptie.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">5. Wat is een DDoS-aanval?</h2>
+                    <p>
+                        Een DDoS-aanval (Distributed Denial of Service) is een cyberaanval waarbij een server of website wordt overspoeld 
+                        met enorm veel verkeer. Hierdoor raakt de server overbelast en wordt deze onbereikbaar voor echte gebruikers. Hackers 
+                        gebruiken vaak grote netwerken van geïnfecteerde apparaten, zogenaamde "botnets", om deze aanvallen uit te voeren.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">6. Uit welke lagen bestaat het drielagenmodel?</h2>
+                    <p>
+                        Het drielagenmodel is een manier om een computersysteem te beschrijven. Het bestaat uit drie lagen:
+                        <ul>
+                            <li><span class="highlight">Fysieke laag:</span> Dit omvat de hardware, zoals computers, servers en netwerkkabels.</li>
+                            <li><span class="highlight">Logische laag:</span> Dit zijn de besturingssystemen en software die de hardware aansturen.</li>
+                            <li><span class="highlight">Toepassingslaag:</span> Dit zijn de programma's en toepassingen die gebruikers gebruiken, zoals browsers en apps.</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">7. Wat is het verschil tussen een emulator en een virtual machine?</h2>
+                    <p>
+                        Een <span class="highlight">emulator</span> is een programma dat een ander apparaat of besturingssysteem simuleert, 
+                        zoals een spelcomputer. Een <span class="highlight">virtual machine</span> is een softwareomgeving die een volledig besturingssysteem 
+                        kan draaien binnen een ander systeem. Virtual machines zijn vaak krachtiger, maar emulators zijn ideaal voor specifieke situaties, zoals oude games.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">8. Wat is het verschil tussen een IPv4- en een IPv6-adres?</h2>
+                    <p>
+                        Een <span class="highlight">IPv4-adres</span> is het oudere type IP-adres en bestaat uit 32 bits, wat neerkomt op ongeveer 4 miljard unieke adressen. 
+                        Een <span class="highlight">IPv6-adres</span> gebruikt 128 bits, waardoor er een vrijwel onbeperkt aantal unieke adressen beschikbaar is. 
+                        Door de groei van het internet is IPv6 nodig om alle apparaten te verbinden.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">9. Wat is DNS en waarvoor wordt dit gebruikt?</h2>
+                    <p>
+                        DNS staat voor <span class="highlight">Domain Name System</span>. Het is als een telefoonboek voor het internet. Wanneer je een website bezoekt, vertaalt 
+                        DNS de domeinnaam (bijvoorbeeld www.google.com) naar een IP-adres dat computers begrijpen. Zonder DNS zou je lange reeksen cijfers moeten onthouden!
+                    </p>
+                </section>
+                <section>
+                    <h2 class="section-title">10. Wat betekent de Von Neumann-architectuur?</h2>
+                    <p>
+                        De <span class="highlight">Von Neumann-architectuur</span> is een model waarop veel moderne computers zijn gebaseerd. 
+                        Het beschrijft een systeem waarin gegevens en instructies worden opgeslagen in hetzelfde geheugen. Dit maakt het mogelijk 
+                        om programma's dynamisch te laden en uit te voeren, wat computers flexibel en efficiënt maakt.
+                    </p>
+                </section>
             </form>
-            <button class="btn" onclick="checkAnswers()">Indienen</button>
-            <div class="result" id="result"></div>
+            <a class="naardequiz" href="quiz1.html" style="text-decoration:none">Naar de quiz!</a>
         </div>
-    </section>    
+    </section>
     <footer>
         <p>&copy; 2024 Brian. All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
-    
