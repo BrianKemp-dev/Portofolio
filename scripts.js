@@ -12,6 +12,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 });
 
+// Functie om de toggle button te activeren
 document.getElementById('toggle-interests').addEventListener('click', function() {
     var interests = document.getElementById('interests');
     if (interests.style.display === 'none' || interests.style.display === '') {
@@ -26,3 +27,36 @@ document.getElementById('toggle-interests').addEventListener('click', function()
         this.classList.add('show-interests');
     }
 });
+
+function checkAnswers() {
+    // Correcte antwoorden
+    const correctAnswers = {
+        q1: "B", // Vraag 1
+        q2: "B", // Vraag 2
+        q3: "C", // Vraag 3
+        q4: "B", // Vraag 4
+        q5: "A", // Vraag 5
+        q6: "A", // Vraag 6
+        q7: "B", // Vraag 7
+        q8: "C", // Vraag 8
+        q9: "A", // Vraag 9
+        q10: "C", // Vraag 10
+        // Voeg hier antwoorden toe voor vragen 4 t/m 10
+    };
+
+    let score = 0;
+    let totalQuestions = Object.keys(correctAnswers).length;
+
+    // Loop door alle vragen
+    for (let key in correctAnswers) {
+        const selected = document.querySelector(`input[name="${key}"]:checked`);
+        if (selected && selected.value === correctAnswers[key]) {
+            score++; // Verhoog de score als het antwoord correct is
+        }
+    }
+
+    // Toon de resultaten
+    const result = document.getElementById("result");
+    result.textContent = `Je hebt ${score} van de ${totalQuestions} vragen goed beantwoord!`;
+    result.style.color = score === totalQuestions ? "green" : "orange";
+}
